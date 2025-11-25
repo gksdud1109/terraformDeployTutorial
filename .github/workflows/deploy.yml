@@ -2,6 +2,10 @@ name: deploy
 env:
   IMAGE_NAME: app251125
 
+permissions:
+  contents: write
+  packages: write
+
 on:
   push:
     paths:
